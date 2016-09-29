@@ -1,0 +1,5 @@
+
+Create a function that takes a string and returns the reverse
+
+input: "12345"
+output: "54321"
