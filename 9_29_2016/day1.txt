@@ -3,3 +3,6 @@ Create a function that takes a string and returns the reverse
 
 input: "12345"
 output: "54321"
+
+for this excerise don't use any special Python functions
+
