@@ -1,0 +1,32 @@
+
+create a new python file
+
+add
+
+import random
+import os, sys
+import pygame
+import pygbutton
+from pygame.locals import *
+
+if not pygame.font: print 'Warning, fonts disabled'
+if not pygame.mixer: print 'Warning, sound disabled'
+
+WINDOWWIDTH = 640
+WINDOWHEIGHT = 480
+
+"""this will create a game"""
+pygame.init()
+
+"""this will create  a screen using width and height we declared"""
+screen = pygame.display.set_mode((WINDOWWIDTH, WINDOWHEIGHT))
+
+""" this is a forever loop that runs until you close the window"""
+""" it is typically called an event loop since it reads events on from pygame.event.get()"""
+"""" an event is a mouse click or keyboard entry"""
+"""" next we will add a button and add code to check if the button was pushed"""
+while 1:
+        for event in pygame.event.get():
+            if event.type == pygame.QUIT:
+                pygame.display.quit()
+                sys.exit()
