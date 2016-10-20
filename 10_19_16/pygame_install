@@ -1,0 +1,56 @@
+
+
+PyGame needs to be added to Python. 
+
+1. open a command(dos) window( the black window were you can type)
+     start->run->cmd.exe
+2. type python <return>
+
+
+You should see:
+Python 2.7 (r27:82525, Jul  4 2010, 07:43:08) [MSC v.1500 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+
+this tells you that you have  version 2.7 64 bit. If if says 2.7  32bit you will need a different file.
+
+I have included the .whl file for pygame. The whl file is another python installer that sometimes people use.
+
+download the file somewhere. in the command window enter cd < path to downloaded file>
+
+type:
+   dir
+
+you should see the file   pygame-1.9.2b1-cp27-cp27m-win_amd64.whl
+
+type:
+   pip install pygame-1.9.2b1-cp27-cp27m-win_amd64.whl
+   
+   sometimes you will see an error about pip not being the latest(need to update) or is not installed.
+   
+   if pip is not installed...ugh 
+   https://packaging.python.org/installing/#requirements-for-installing-packages
+   this will tell you how to do it
+   
+   after this you will have pygame installed. I found another useful package, pygButton. 
+   
+   pygbutton_master.zip - download this file as well
+   
+   unzip the file somewhere. I created a folder  pygbutton_master and unzipped it there.
+   
+   there will be a file named setup.py which you need to run
+   
+   setup.py install
+   
+   to check this is done open file explore and go to  where you have Python 27 installed. For me it is in C:\Python27
+   
+   you should find 
+   C:\Python27\Lib\site-packages\py2neo-2.0.9-py2.7.egg-info
+   
+   and
+   C:\Python27\Lib\site-packages\pygame-1.9.2b1.dist-info
+   
+   yeah!  now to testing
+   
+   
+   
+   
