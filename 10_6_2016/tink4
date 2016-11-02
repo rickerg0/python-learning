@@ -1,0 +1,12 @@
+from app import SlotMachine
+
+from Tkinter import *
+
+        
+root = Tk()
+
+app = SlotMachine(root)
+
+
+root.mainloop()
+root.destroy() # optional; see description below
